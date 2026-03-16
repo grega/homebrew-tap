@@ -1,11 +1,11 @@
 # homebrew-tap
 
-Homebrew formulae
+Homebrew formulae.
 
-## [hdi](https://github.com/gregannandale/hdi).
+## [hdi](https://github.com/grega/hdi).
 
 ### Install
 
 ```bash
-brew install gregannandale/tap/hdi
+brew install grega/tap/hdi
 ```
