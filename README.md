@@ -2,7 +2,7 @@
 
 Homebrew formulae.
 
-## [hdi](https://github.com/grega/hdi).
+## [hdi](https://github.com/grega/hdi)
 
 ### Install
 
