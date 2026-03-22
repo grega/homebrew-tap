@@ -1,8 +1,8 @@
 class Hdi < Formula
   desc "Extract install, run & test commands from a project's README"
   homepage "https://github.com/grega/hdi"
-  url "https://github.com/grega/hdi/archive/refs/tags/v0.18.1.tar.gz"
-  sha256 "0dfdfd2e46c161a933c4357406c9476475a6d6f1e0288aeb3e285a7642cce3b5"
+  url "https://github.com/grega/hdi/archive/refs/tags/v0.18.2.tar.gz"
+  sha256 "48b2ff6aa1d527e997f059b58fcbf2611b3ac4c00c11ad238099ea175f68f575"
   license "MIT"
 
   def install
