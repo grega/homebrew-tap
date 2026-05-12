@@ -2,25 +2,25 @@ class Vrs < Formula
   desc "Check the latest release versions of languages, frameworks, and tools"
   homepage "https://github.com/grega/versions/cli"
   license "MIT"
-  version "0.6.0"
+  version "0.7.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/grega/versions/releases/download/v0.6.0/vrs-v0.6.0-darwin-arm64.tar.gz"
-      sha256 "8ed69a2e1cb2551a1bfc31a129250523d5e01a1ca55826247d05bdd336291ae0"
+      url "https://github.com/grega/versions/releases/download/v0.7.0/vrs-v0.7.0-darwin-arm64.tar.gz"
+      sha256 "659fc179521d97b487fa01ade2f96813b6edbd0809b4bef358c6fac699031143"
     else
-      url "https://github.com/grega/versions/releases/download/v0.6.0/vrs-v0.6.0-darwin-amd64.tar.gz"
-      sha256 "d459ea15b8726f7237b06f2ba2cd295f3a09e0405d8270f712313738e06f3ed2"
+      url "https://github.com/grega/versions/releases/download/v0.7.0/vrs-v0.7.0-darwin-amd64.tar.gz"
+      sha256 "1ea37ddc4ea5b9506d906687de0884748d0f69f6f231a5cdc2800db5b6acb11c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/grega/versions/releases/download/v0.6.0/vrs-v0.6.0-linux-arm64.tar.gz"
-      sha256 "c96c7f428fd6ecff1897d7cf2b6c2b1c084cee9d30c97fe8d2051b0f853b9488"
+      url "https://github.com/grega/versions/releases/download/v0.7.0/vrs-v0.7.0-linux-arm64.tar.gz"
+      sha256 "45be1fca30f87e50f1ada4140c18c651e19e81f9aac6115f62db13503d21e05d"
     else
-      url "https://github.com/grega/versions/releases/download/v0.6.0/vrs-v0.6.0-linux-amd64.tar.gz"
-      sha256 "78fa3a8587ea0d1ce6e496f4d9c39f2df2f9ad6c7b43f1c94a221eb5026e24ac"
+      url "https://github.com/grega/versions/releases/download/v0.7.0/vrs-v0.7.0-linux-amd64.tar.gz"
+      sha256 "230166f2081cf2f797e89fd3a5a8caaa144e57992f2eab27cfa492b65c37496c"
     end
   end
 
